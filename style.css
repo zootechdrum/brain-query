@@ -1,0 +1,45 @@
+h1{ font-size: 50px;
+    font-family: Cinzel, serif; 
+    letter-spacing: 4px;
+}
+input[type=text] {
+    width: 250px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 7px 20px 10px 9px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus{
+    width: 50%;
+}
+img{
+  margin-top:10px;
+  position:relative;
+  top:10px;
+}
+
+#submit{
+  padding:10px 17px;
+  margin-top:-3px;
+  background-color:#6495ED;
+}
+li{
+
+   border:1px solid black;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  background-color:#f7f7f4;
+ 
+}
+ul {
+  list-style:none;
+}
